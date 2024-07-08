@@ -1,0 +1,48 @@
+.filterWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  width: 344px;
+  max-height: 48px;
+  padding: 12px 12px 12px 40px;
+  border-radius: 8px;
+  border: 1px solid #c5c4c4;
+  background: #fdfcfd;
+  box-shadow: 0px 7px 16px 0px rgba(19, 55, 110, 0.03),
+    0px 6px 20px 0px rgba(27, 27, 35, 0.03);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.input:focus {
+  border: 1px solid #0b0b0b;
+}
+
+.label {
+  color: #0b0b0b;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.svg {
+  position: absolute;
+  top: 70%;
+  left: 12px;
+  transform: translateY(-70%);
+  pointer-events: none;
+}

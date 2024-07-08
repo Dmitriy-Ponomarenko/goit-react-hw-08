@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 128px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #5b53c4;
+  box-shadow: 0px 7px 16px 0px rgba(19, 55, 110, 0.03),
+    0px 6px 20px 0px rgba(27, 27, 35, 0.03);
+  border: none;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fdfcfd;
+  cursor: pointer;
+}
+.loginButton {
+  color: #0b0b0b;
+  border: 2px solid #5b53c4;
+  background: transparent;
+}
+.button:hover {
+  background: #2f23cf;
+}
+.loginButton:hover {
+  background: transparent;
+  border: 3px solid #5b53c4;
+}
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .nav {
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+}

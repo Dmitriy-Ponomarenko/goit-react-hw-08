@@ -1,0 +1,10 @@
+.contactList {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.noContacts {
+  text-align: center;
+}

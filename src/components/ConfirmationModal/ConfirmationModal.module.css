@@ -1,0 +1,63 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.confirmButton {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #28a745;
+  box-shadow: 0px 7px 16px 0px rgba(19, 55, 110, 0.03),
+    0px 6px 20px 0px rgba(27, 27, 35, 0.03);
+  border: none;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fdfcfd;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 7px 16px 0px rgba(19, 55, 110, 0.03),
+    0px 6px 20px 0px rgba(27, 27, 35, 0.03);
+  border: none;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fdfcfd;
+  cursor: pointer;
+}

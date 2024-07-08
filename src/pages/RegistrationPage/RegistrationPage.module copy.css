@@ -1,0 +1,55 @@
+.title {
+  display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titleLink {
+    text-decoration: none;
+    color: currentColor;
+    color: #0b0b0b;
+    font-size: 18px;
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .titleLink {
+      text-decoration: none;
+      color: currentColor;
+      color: #0b0b0b;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.56;
+    }
+    .titleText {
+      color: #5b53c4;
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: #0b0b0b;
+      font-family: "Shadows Into Light Two", cursive;
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: -1px;
+    }
+    font-weight: 400;
+    line-height: 1.56;
+  }
+  .titleText {
+    color: #5b53c4;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #0b0b0b;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+}
