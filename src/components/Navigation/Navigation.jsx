@@ -11,22 +11,16 @@ export const Navigation = () => {
 
   return (
     <nav className={css.nav}>
-      {!isLoggedIn && (
-        <NavLink className={clsx(css.link, css.titleLink)} to="/">
-          <div className={css.title}>
-            <LogoIcon />
+      <NavLink className={clsx(css.link, css.titleLink)} to="/">
+        <div className={css.title}>
+          <LogoIcon />
+          {!isLoggedIn ? (
             <h1 className={css.titleText}>Phonebook</h1>
-          </div>
-        </NavLink>
-      )}
-      {isLoggedIn && (
-        <NavLink className={clsx(css.link, css.titleLink)} to="/">
-          <div className={css.title}>
-            <LogoIcon />
+          ) : (
             <h1 className={css.titleText}>{user.name}&#39;s Phonebook</h1>
-          </div>
-        </NavLink>
-      )}
+          )}
+        </div>
+      </NavLink>
     </nav>
   );
 };
